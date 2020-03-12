@@ -36,6 +36,7 @@
           width: 2px;
           height: 200px;
           background-color: rgba($color-gray, 0.1);
+          content: "";
           @include lg-min {
             right: -$gap * 2.5;
           }
